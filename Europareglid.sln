@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Europareglid", "Europareglid\Europareglid.pyproj", "{988C7AC3-EC77-444E-9BE2-BB7DA0898CBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988C7AC3-EC77-444E-9BE2-BB7DA0898CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988C7AC3-EC77-444E-9BE2-BB7DA0898CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87BB110C-AEE3-4C64-85AA-78596A73EB13}
+	EndGlobalSection
+EndGlobal
