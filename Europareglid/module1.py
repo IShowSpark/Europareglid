@@ -32,7 +32,7 @@ def translate(r:list,a:list):
         print("Страна или столица отсутствует в словаре")
 
 def error(l1:list,l1a:str,l2:list,l2a:str):
-    word=input("Ошибка в стране или столицу?: ")
+    word=input("В какой стране или столице ошибка?: ")
     if word not in l1 and word not in l2:
         print("Такого нет :(")
     else:
@@ -78,3 +78,14 @@ def test(l1:list,l2:list):
             print()
     resultPer=(result/len(l1))*100
     print(f"Ваш результат: {resultPer}%")
+
+
+#def readFile(f:str,d:dict):
+#    file=open(f)
+#    d=file.read().split("\n")[:-1]
+#    for item in di:
+#        country=item.split("-")[0]
+#        capital=item.split("-")[1:]
+#        d[country]=capital
+#    file.close()
+#    return d
